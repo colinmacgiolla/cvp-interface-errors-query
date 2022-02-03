@@ -30,7 +30,7 @@ def main():
 
     pathElts = [
         "Devices",
-        args.device,
+        Wildcard(),
         "versioned-data",
         "interfaces",
         "data",
